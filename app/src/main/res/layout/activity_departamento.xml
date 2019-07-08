@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.primer.bryanalvarez.b_sabana.Activities.DepartamentoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageSwitcher
+            android:id="@+id/imageSwitcher"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textViewTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deporte"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/descripcionDepartamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Este es la sección de cultura bla bl bla,Este es la sección de cultura bla bl bla,Este es la sección de cultura bla bl bla"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Contactos"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/nombreContactoDepartamento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gustavo Ramirez"/>
+                <TextView
+                    android:id="@+id/correoContactoDepartamento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="gustavo.ramirez@unisabana.edu.co "/>
+                <TextView
+                    android:id="@+id/telefonoContactoDepartamento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20221"/>
+                <TextView
+                    android:id="@+id/horarioContactoDepartamento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="9-4"/>
+
+
+                <TextView
+                    android:id="@+id/nombreContactoDepartamento2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gustavo Ramirez"/>
+                <TextView
+                    android:id="@+id/correoContactoDepartamento2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="gustavo.ramirez@unisabana.edu.co "/>
+                <TextView
+                    android:id="@+id/telefonoContactoDepartamento2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20221"/>
+                <TextView
+                    android:id="@+id/horarioContactoDepartamento2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="9-4"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom|end">
+
+        <Button
+            android:id="@+id/buttonReservar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Reservar"
+            android:textColor="#ffff"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

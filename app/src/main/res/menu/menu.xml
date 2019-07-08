@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Log out"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/menu_forget_logout"
+        android:title="Forget and Log out"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/menu_ayuda"
+        android:title="Ayuda"
+        android:icon="@mipmap/ic_help"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/menu_info"
+        android:title="Noticias"
+        android:icon="@mipmap/ic_info"
+        app:showAsAction="always"></item>
+</menu>
